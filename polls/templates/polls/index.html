@@ -1,3 +1,7 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+<div class="div1"><h1>投票系统</h1></div>
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}

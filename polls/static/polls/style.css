@@ -1,0 +1,25 @@
+li a {
+    color: green;
+}
+body{
+    background: white url("images/background.gif") no-repeat;
+}
+div1{
+    width: 300px;
+    height:200px;
+    margin: 50px auto 0px;
+}
+div h1{
+    display: block;
+    text-align: center;
+    font: normal 18px "Microsoft Yahei";
+    background-color: gold;
+    color: blue;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    float: left;
+    margin: 0px 80px 0px;
+}
